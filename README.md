@@ -89,5 +89,3 @@ npm start
 ### Moving Beyond Black-Box Inference
 * **Challenge**: Most standard libraries hide the logic of how weights are stored and predictions are generated, making it difficult to optimize for low-latency medical environments.
 * **Resolution**: Designed the inference engine from scratch using pure softmax layer. This included building custom logic to load serialized weights and biases directly into the mathematical model, reducing overhead and increasing diagnostic speed.
-
-* 
